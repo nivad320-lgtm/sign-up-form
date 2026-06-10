@@ -11,7 +11,8 @@
 </head>
 <body>
     <div class="main-image">
-        <img src="./photo-1585202900225-6d3ac20a6962.avif" alt="bg-image">
+        <img src="./photo-1585202900225-6d3ac20a6962.avif" alt="bg-image" class="bg-image">
+        <div class="logo-container"><img src="./odin-lined.png" alt="odin-lined" class="odin-lined"><p class="logo-name">ODIN</p></div>
     </div>
     <div class="content">
         <header class="header-content">
@@ -20,7 +21,33 @@
             <h1>You know you want to.</h1>
         </header>
         <div class="form-container">
-
+            <h1>Let's do this!</h1>
+            <form action="" method="post">
+                <div class="form-row">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-row">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" id="phone-number" name="phone-number" required>
+                </div>
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-row">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="confirm-password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </form>
         </div>
         <div class="sign-up-container">
             <button type="submit">Create Account</button>
